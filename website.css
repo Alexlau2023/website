@@ -124,7 +124,7 @@ ul {
       letter-spacing: 0.1rem;
       font-size: 1rem;
   }
-  div h2 {font-size: 24pt;}
+  div h2 {font-size: 30pt;}
 
   @keyframes animated-text {
       from { width: 0; }
@@ -163,7 +163,7 @@ ul {
   body {
       background-size: auto;
   }
-  div p { font-size: 16pt;}
+  div p { font-size: 20pt;}
 
   div h1 {
       word-break: break-word;
