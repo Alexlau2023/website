@@ -264,7 +264,7 @@ ul {
       letter-spacing: 0.1rem;
       font-size: 1rem;
   }
-  div h2 {font-size: 12pt;}
+  div h2 {font-size: 14pt;}
 
   @keyframes animated-text {
       from { width: 0; }
