@@ -116,6 +116,10 @@ ul {
 @media only screen and (max-width: 1680px) {
   body {
       background-size: auto;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
   }
   div p { font-size: 18pt;}
 
@@ -162,6 +166,10 @@ ul {
 @media only screen and (max-width: 736px) {
   body {
       background-size: auto;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
   }
   div p { font-size: 20pt;}
 
@@ -209,6 +217,10 @@ ul {
 @media only screen and (max-width: 480px) {
   body {
       background-size: auto;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
   }
   div p { font-size: 14pt;}
 
@@ -256,6 +268,10 @@ ul {
 @media only screen and (max-width: 360px) {
   body {
       background-size: auto;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
   }
   div p { font-size: 12pt;}
   
