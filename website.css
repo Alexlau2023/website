@@ -188,7 +188,7 @@ ul {
   }
   @keyframes text {
       from { width: 0; }
-      to { width: 100%; font-size:18px; }
+      to { width: 100%; font-size:22px; }
   }
   @keyframes genshinEntrance {
       0% {
@@ -236,7 +236,7 @@ ul {
   
   @keyframes text {
       from { width: 0; }
-      to { width: 100%; font-size:16px; }
+      to { width: 100%; font-size:20px; }
   }
   @keyframes genshinEntrance {
       0% {
@@ -282,7 +282,7 @@ ul {
   }
   @keyframes text {
       from { width: 0; }
-      to { width: 100%; font-size:14px; }
+      to { width: 100%; font-size:18px; }
   }
   @keyframes genshinEntrance {
       0% {
