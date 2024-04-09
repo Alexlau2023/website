@@ -97,7 +97,7 @@ li a {
   text-align: center;
   padding: 16px 14px;
   text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Source Code Pro', monospace;
   transition: all 0.3s ease 0s;
 }
 
