@@ -47,6 +47,13 @@ div p {
   color: azure;
 }
 
+div p1{ 
+  border-style:none;
+  font-size: 20px;
+  text-align: center;
+  color: azure; 
+}
+
 div h1 {
   border-right: solid 2px rgba(0, 170, 255, 0.75);
   white-space: nowrap;
