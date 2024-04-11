@@ -114,7 +114,6 @@ div h2 {
 li {
   float: left;
 }
-
 li a {
   display: inline-block;
   color: white;
@@ -309,6 +308,8 @@ ul {
       background-position: center center;
       background-attachment: fixed;
   }
+  li a { font-size: 12pt ;}
+  
   div p { font-size: 12pt;}
 
   div p1 { font-size: 12pt;}
