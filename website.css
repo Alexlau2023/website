@@ -47,11 +47,28 @@ div p {
   color: azure;
 }
 
-div p1{ 
-  border-style:none;
-  font-size: 20px;
-  text-align: center;
-  color: azure; 
+.fa-discord {
+    display: flex;
+    padding: 8px;
+    font-size: 30px;
+    text-align: center;
+    border-style: none;
+}
+
+.fa-facebook {
+    display: flex;
+    padding: 8px;
+    font-size: 30px;
+    text-align: center;
+    border-style: none;
+}
+
+.fa-youtube{
+    display: flex;
+    padding: 8px;
+    font-size: 30px;
+    text-align: center;
+    border-style: none;
 }
 
 div h1 {
@@ -130,6 +147,10 @@ ul {
   }
   div p { font-size: 18pt;}
 
+  div p1 { font-size: 18pt;}
+
+  div p2 { font-size: 18pt;}
+
   div h1 {
       word-break: break-word;
       letter-spacing: 0.1rem;
@@ -179,6 +200,10 @@ ul {
       background-attachment: fixed;
   }
   div p { font-size: 20pt;}
+
+  div p1 { font-size: 20pt;}
+
+  div p2 { font-size: 20pt;}
 
   div h1 {
       word-break: break-word;
@@ -231,6 +256,10 @@ ul {
   }
   div p { font-size: 14pt;}
 
+  div p1 { font-size: 14pt;}
+
+  div p2 { font-size: 14pt;}
+
   div h1 {
       word-break: break-word;
       letter-spacing: 0.1rem;
@@ -281,6 +310,10 @@ ul {
       background-attachment: fixed;
   }
   div p { font-size: 12pt;}
+
+  div p1 { font-size: 12pt;}
+
+  div p2 { font-size: 12pt;}
   
   div h1 {
       word-break: break-word;
