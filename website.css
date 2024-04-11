@@ -251,7 +251,7 @@ ul {
       background-attachment: fixed;
   }
 
-  li a { font-size: 10pt ;}
+  li a { font-size: 11pt ;}
 
   .logo {font-size: 7pt;}
 
@@ -266,20 +266,20 @@ ul {
 
   .fa-discord {
     padding: 0;
-    font-size: 14px;
+    font-size: 16px;
     position:center;
     
 }
 
   .fa-facebook {
     padding: 0;
-    font-size: 14px;
+    font-size: 16px;
     position:center;
 }
 
   .fa-youtube{
     padding: 0;
-    font-size: 14px;
+    font-size: 16px;
     position:center;
 }
 
@@ -318,7 +318,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
   body {
       background-size: auto;
       background-size: cover;
@@ -326,20 +326,35 @@ ul {
       background-position: center center;
       background-attachment: fixed;
   }
-  li a { font-size: 6pt ;}
-  
+  li a { font-size: 11pt ;}
+
   div p { font-size: 12pt;}
 
-  div p1 { font-size: 12pt;}
-
-  div p2 { font-size: 12pt;}
-  
   div h1 {
       word-break: break-word;
       letter-spacing: 0.1rem;
       font-size: 1rem;
   }
   div h2 {font-size: 14pt;}
+
+  .fa-discord {
+    padding: 0;
+    font-size: 14px;
+    position:center;
+    
+}
+
+  .fa-facebook {
+    padding: 0;
+    font-size: 14px;
+    position:center;
+}
+
+  .fa-youtube{
+    padding: 0;
+    font-size: 14px;
+    position:center;
+}
 
   @keyframes animated-text {
       from { width: 0; }
