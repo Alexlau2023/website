@@ -251,9 +251,9 @@ ul {
       background-attachment: fixed;
   }
 
-  li a { font-size: 11pt ;}
+  li a { font-size: 14pt ;}
 
-  .logo {font-size: 7pt;}
+  .logo {font-size: pt;}
 
   div h1 {
       word-break: break-word;
@@ -326,7 +326,7 @@ ul {
       background-position: center center;
       background-attachment: fixed;
   }
-  li a { font-size: 11pt ;}
+  li a { font-size: 14pt ;}
 
   div p { font-size: 12pt;}
 
