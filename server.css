@@ -11,6 +11,15 @@ section {
   height: auto;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 li {
     float: left;
 }
@@ -19,7 +28,7 @@ li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 16px 14px;
+    padding: 20px 20px;
     text-decoration: none;
     font-family:'Source Code Pro', monospace;
     transition: all 0.3s ease 0s;
@@ -60,7 +69,40 @@ h1 {
   font-size: 30pt;
 }
 
-.custom-shape-divider-bottom-1713012330 {
+
+.fa-discord {
+  display: flex;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-style: none;
+}
+
+.fa-envelope{ 
+  display: flex;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-style: none;
+}
+
+.fa-facebook {
+  display: flex;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-style: none;
+}
+
+.fa-youtube{
+  display: flex;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-style: none;
+}
+  
+.custom-shape-divider-bottom-1713064447 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -69,32 +111,26 @@ h1 {
   line-height: 0;
 }
 
-.custom-shape-divider-bottom-1713012330 svg {
+.custom-shape-divider-bottom-1713064447 svg {
   position: relative;
   display: block;
   width: calc(255% + 1.3px);
-  height: 155px;
+  height: 450px;
 }
 
-.custom-shape-divider-bottom-1713012330 .shape-fill {
+.custom-shape-divider-bottom-1713064447 .shape-fill {
   fill: #FFFFFF;
 }
 
 @media only screen and (max-width: 1680px) {
   section {
-      background-size: auto;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: local;
       padding: 0 0 24% 0;
-  }
-  .custom-shape-divider-bottom-1713012330 svg {
-    width: calc(240% + 1.3px);
-    height: 155px;
 }
 }
-
 @media only screen and (max-width: 736px) {
   section {
       background-size: cover;
