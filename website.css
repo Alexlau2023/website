@@ -121,6 +121,10 @@ body {
     overflow: hidden;
   }
 
+  a.main:hover {
+    background: #2980B9;
+  }
+
   li {
     float: left;
   }
@@ -132,6 +136,7 @@ body {
     text-decoration: none;
     font-family:'Source Code Pro', monospace;
     transition: all 0.3s ease 0s;
+    border-radius: 10px;
   }
   
   li a:hover {
@@ -142,9 +147,8 @@ body {
     display: inline-block;  
     list-style-type: none;
     margin: 0 0 10rem 0 ;
-    padding: 0;
+    padding: 0 ;
     overflow: hidden;
-    border-radius: 10px;
   }
   
   @media only screen and (max-width: 1680px) {
@@ -283,7 +287,15 @@ body {
         background-attachment: fixed;
     }
   
-    li a { font-size: 11pt ;}
+    li a { 
+      font-size: 13pt ;
+      padding: 18px 16px ;
+    }
+
+    a.main { 
+      font-size: 13pt;
+      padding: 18px 16px ;       
+    }
   
     .logo {font-size: 9pt;}
   
@@ -358,11 +370,13 @@ body {
         background-position: center center;
         background-attachment: fixed;
     }
-    li a { font-size: 9pt ;}
+    li a { font-size: 12pt ;}
 
-    .logo {font-size: 9.5pt;}
+    a.main { font-size: 12pt;}
+
+    .logo {font-size: 12pt;}
   
-    div p { font-size: 10pt;}
+    div p { font-size: 12pt;}
   
     div h1 {
         word-break: break-word;
@@ -373,20 +387,20 @@ body {
   
     .fa-discord {
       padding: 0;
-      font-size: 10px;
+      font-size: 12px;
       position:center;
       
   }
   
     .fa-facebook {
       padding: 0;
-      font-size: 10px;
+      font-size: 12px;
       position:center;
   }
   
     .fa-youtube{
       padding: 0;
-      font-size: 10px;
+      font-size: 12px;
       position:center;
   }
   
