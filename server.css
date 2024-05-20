@@ -10,7 +10,6 @@ section {
   padding: 0 0 16% 0 ;
   height: auto;
 }
-
 body{
   margin: 0;
   padding: 0;
@@ -23,7 +22,8 @@ body{
 a.main {
   background-color: lightskyblue;
   text-align: center;
-  padding: 30px 14px ;
+  padding: 15px 14px ;
+  margin: 10px;
   float: left;
   border-radius: 10px;
   overflow: hidden;
@@ -41,25 +41,28 @@ li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 30px 14px;
+    padding: 15px 5px;
+    margin: 10px 5px 10px ;
     text-decoration: none;
     font-family:'Source Code Pro', monospace;
     transition: all 0.3s ease 0s;
     border-radius: 10px;
 }
 
-div { float: right; margin: 0;} 
+div { float: left; margin: 0;} 
 
 div .logo {
     display: inline-block;
     color: white;
     text-align: center;
-    margin: 16px 30px;
+    margin: 15px 20px;
     text-decoration: none;
     font-family:'Source Code Pro', monospace;
     transition: all 0.3s ease 0s;
 }
-  
+
+div .logo { float: right;}
+
 li a:hover {
     background: linear-gradient(to right, #2980B9, #6DD5FA, #c9e8ff); 
 }
@@ -90,6 +93,7 @@ h1 {
   font-size: 20px;
   text-align: center;
   border-style: none;
+  color: #FFFFFF;
 }
 
 .fa-envelope{ 
@@ -98,6 +102,7 @@ h1 {
   font-size: 20px;
   text-align: center;
   border-style: none;
+  color: #FFFFFF;
 }
 
 .fa-facebook {
@@ -106,6 +111,7 @@ h1 {
   font-size: 20px;
   text-align: center;
   border-style: none;
+  color: #FFFFFF;
 }
 
 .fa-youtube{
@@ -114,7 +120,25 @@ h1 {
   font-size: 20px;
   text-align: center;
   border-style: none;
+  color: #FFFFFF;
 }
+
+.button {
+    border: 3px solid ;
+    border-radius: 100px;
+    border-color: #FFFFFF;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 40rem;
+    padding: 5px 20px ;
+    cursor: pointer;
+    background-color: transparent !important;
+    
+  }
+  
   
 .custom-shape-divider-bottom-1713064447 {
   position: absolute;
@@ -164,7 +188,6 @@ h1 {
   font-size: 30px;
   position:center;
   padding: 3px;
-  
 }
 }
 @media only screen and (max-width: 950px) {
