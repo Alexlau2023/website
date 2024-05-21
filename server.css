@@ -142,7 +142,7 @@ h1 {
   }
 
   
-.custom-shape-divider-bottom-1713064447 {
+.custom-shape-divider-bottom-1716297638 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -151,14 +151,14 @@ h1 {
   line-height: 0;
 }
 
-.custom-shape-divider-bottom-1713064447 svg {
+.custom-shape-divider-bottom-1716297638 svg {
   position: relative;
   display: block;
   width: calc(255% + 1.3px);
   height: 450px;
 }
 
-.custom-shape-divider-bottom-1713064447 .shape-fill {
+.custom-shape-divider-bottom-1716297638 .shape-fill {
   fill: #FFFFFF;
 }
 
@@ -184,6 +184,10 @@ h1 {
   position:center;
   padding: 10px;
 }
+.custom-shape-divider-bottom-1716297638  svg {
+  width: calc(255% + 1.3px);
+  height: 400px;
+}
 }
 @media only screen and (max-width: 1024px) {
   section {
@@ -193,7 +197,7 @@ h1 {
     background-attachment: local;
     padding: 0 0 50% 0 ;
 }
-.custom-shape-divider-bottom-1713064447  svg {
+.custom-shape-divider-bottom-1716297638  svg {
   width: calc(255% + 1.3px);
   height: 450px;
 }
@@ -214,6 +218,11 @@ h1 {
   position:center;
   padding: 3px;
 }
+.button {
+  font-size: 25px;
+  margin-left: 40rem;
+  padding: 10px 20px ;
+}
 }
 @media only screen and (max-width: 950px) {
   section {
@@ -223,7 +232,7 @@ h1 {
     background-attachment: local;
     padding: 0 0 60% 0 ;
 }
-.custom-shape-divider-bottom-1713064447  svg {
+.custom-shape-divider-bottom-1716297638  svg {
   width: calc(255% + 1.3px);
   height: 450px;
 }
@@ -255,7 +264,7 @@ h1 {
     background-attachment: local;
     padding: 0 0 40% 0 ;
 }
-.custom-shape-divider-bottom-1713064447  svg {
+.custom-shape-divider-bottom-1716297638 svg {
   width: calc(255% + 1.3px);
   height: 450px;
 }
