@@ -7,7 +7,7 @@ section {
 	color: #fff;
   border-radius: 2px;
   max-width: 100%;
-  padding: 0 0 16% 0 ;
+  padding: 0 0 22% 0 ;
   height: auto;
 }
 body{
@@ -22,8 +22,9 @@ body{
 a.main {
   background-color: lightskyblue;
   text-align: center;
-  padding: 15px 14px ;
-  margin: 10px;
+  padding: 18px 18px 16px;
+  margin: 15px 20px;
+  font-size: 16pt;
   float: left;
   border-radius: 10px;
   overflow: hidden;
@@ -41,12 +42,13 @@ li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 15px 5px;
-    margin: 10px 5px 10px ;
+    padding: 18px 5px 16px;
+    margin: 15px 20px;
     text-decoration: none;
     font-family:'Source Code Pro', monospace;
     transition: all 0.3s ease 0s;
     border-radius: 10px;
+    font-size: 16pt;
 }
 
 div { float: left; margin: 0;} 
@@ -83,14 +85,14 @@ ul {
 h1 { 
   color: white;
   text-align: center;
-  font-size: 30pt;
+  font-size: 50pt;
 }
 
 
 .fa-discord {
   display: flex;
   padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   border-style: none;
   color: #FFFFFF;
@@ -99,7 +101,7 @@ h1 {
 .fa-envelope{ 
   display: flex;
   padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   border-style: none;
   color: #FFFFFF;
@@ -108,7 +110,7 @@ h1 {
 .fa-facebook {
   display: flex;
   padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   border-style: none;
   color: #FFFFFF;
@@ -117,7 +119,7 @@ h1 {
 .fa-youtube{
   display: flex;
   padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   border-style: none;
   color: #FFFFFF;
@@ -131,14 +133,14 @@ h1 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
-    margin-left: 40rem;
-    padding: 5px 20px ;
+    font-size: 40px;
+    margin-left: 50rem;
+    padding: 15px 40px ;
     cursor: pointer;
     background-color: transparent !important;
     
   }
-  
+
   
 .custom-shape-divider-bottom-1713064447 {
   position: absolute;
@@ -160,6 +162,29 @@ h1 {
   fill: #FFFFFF;
 }
 
+@media only screen and (max-width: 1680px) {
+  section {
+    max-width: 100%;
+    padding: 0 0 13% 0 ;
+  }
+  h1 {
+    font-size: 30pt;
+  }
+  .button {
+    font-size: 25px;
+    margin-left: 40rem;
+    padding: 10px 20px ;
+  }
+  li a { font-size: 12pt ; padding: 15px 5px; margin: 10px 5px 10px ; }
+
+  a.main { font-size: 12pt;  padding: 15px 14px ; margin: 10px;}
+
+  .fa-discord,.fa-envelope,.fa-facebook,.fa-youtube{
+  font-size: 25px;
+  position:center;
+  padding: 10px;
+}
+}
 @media only screen and (max-width: 1024px) {
   section {
     background-size: cover;
