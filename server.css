@@ -51,19 +51,17 @@ li a {
     font-size: 16pt;
 }
 
-div { float: left; margin: 0;} 
+div { float: right;}
 
 div .logo {
     display: inline-block;
     color: white;
     text-align: center;
-    margin: 15px 20px;
+    margin: 16px 30px;
     text-decoration: none;
     font-family:'Source Code Pro', monospace;
     transition: all 0.3s ease 0s;
 }
-
-div .logo { float: right;}
 
 li a:hover {
     background: linear-gradient(to right, #2980B9, #6DD5FA, #c9e8ff); 
@@ -71,7 +69,7 @@ li a:hover {
 
 .logo{
     float:right;
-}
+  }
   
 ul {
     display: inline-block;  
@@ -123,6 +121,7 @@ h1 {
   text-align: center;
   border-style: none;
   color: #FFFFFF;
+
 }
 
 .button {
@@ -175,14 +174,13 @@ h1 {
     margin-left: 40rem;
     padding: 10px 20px ;
   }
-  li a { font-size: 12pt ; padding: 15px 5px; margin: 10px 5px 10px ; }
+  li a { font-size: 12pt ; padding: 15px 15px; margin: 10px 5px 10px ; }
 
   a.main { font-size: 12pt;  padding: 15px 14px ; margin: 10px;}
 
   .fa-discord,.fa-envelope,.fa-facebook,.fa-youtube{
   font-size: 25px;
   position:center;
-  padding: 10px;
 }
 .custom-shape-divider-bottom-1716297638  svg {
   width: calc(255% + 1.3px);
@@ -195,7 +193,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: local;
-    padding: 0 0 50% 0 ;
+    padding: 0 0 40% 0 ;
 }
 .custom-shape-divider-bottom-1716297638  svg {
   width: calc(255% + 1.3px);
@@ -214,13 +212,16 @@ h1 {
   height: 5em;
 }
 .fa-discord,.fa-envelope,.fa-facebook,.fa-youtube{
-  font-size: 30px;
+  font-size: 25px;
   position:center;
-  padding: 3px;
+  padding: 4px;
+}
+.logo {
+  padding: 12px 1px ;
 }
 .button {
-  font-size: 25px;
-  margin-left: 40rem;
+  font-size: 50px;
+  margin-left: 25rem;
   padding: 10px 20px ;
 }
 }
@@ -252,9 +253,12 @@ h1 {
   font-size: 25px;
   position:center;
   padding: 3px;
-  
 }
-
+.button {
+  font-size: 25px;
+  margin-left: 10rem;
+  padding: 10px 20px ;
+}
 }
 @media only screen and (max-width: 900px) {
   section {
@@ -262,48 +266,122 @@ h1 {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: local;
-    padding: 0 0 40% 0 ;
+    padding: 0 0 65% 0 ;
 }
 .custom-shape-divider-bottom-1716297638 svg {
   width: calc(255% + 1.3px);
   height: 450px;
 }
-li a { font-size: 14pt ; padding: 16px 14px; }
+li a { font-size: 12pt ; padding: 16px 14px; }
 
-a.main { font-size: 14pt; padding: 16px 14px;}
+a.main { font-size: 12pt; padding: 16px 14px;}
 
-ul {margin: 0 0 20rem 0;}
+ul {margin: 0 0 10rem 0;}
 
 h1 {
   word-break: break-word;
   letter-spacing: 0.1rem;
   font-size: 40px;
-  height: 5em;
+  height: 3em;
+}
+.logo {
+  padding: 5px 1px ;
 }
 .fa-discord,.fa-envelope,.fa-facebook,.fa-youtube{
-  font-size: 18px;
+  font-size: 30px;
   position:center;
-  padding: 3px;
-  
+  padding: 5px ;
 }
-
+.button {
+  font-size: 35px;
+  margin-left: 20rem;
+  padding: 10px 20px ;
 }
-
-@media only screen and (max-width: 480px) {
-  body {
-    background-size: auto;
+}
+@media only screen and (max-width: 820px) {
+  section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: local;
+    padding: 0 0 65% 0 ;
 }
+.custom-shape-divider-bottom-1716297638 svg {
+  width: calc(255% + 1.3px);
+  height: 450px;
+}
+li a { font-size: 12pt ; padding: 16px 14px; }
+
+a.main { font-size: 12pt; padding: 16px 14px;}
+
+ul {margin: 0 0 10rem 0;}
+
+h1 {
+  word-break: break-word;
+  letter-spacing: 0.1rem;
+  font-size: 40px;
+  height: 3em;
+}
+.logo {
+  padding: 5px 1px ;
+}
+.fa-discord,.fa-envelope,.fa-facebook,.fa-youtube{
+  font-size: 30px;
+  position:center;
+  padding: 5px ;
+}
+.button {
+  font-size: 35px;
+  margin-left: 20rem;
+  padding: 10px 20px ;
+}
+}
+@media only screen and (max-width: 780px) {
+  section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: local;
+    padding: 0 0 65% 0 ;
+}
+.custom-shape-divider-bottom-1716297638 svg {
+  width: calc(255% + 1.3px);
+  height: 450px;
+}
+li a { font-size: 12pt ; padding: 16px 14px; }
+
+a.main { font-size: 12pt; padding: 16px 14px;}
+
+ul {margin: 0 0 10rem 0;}
+
+h1 {
+  word-break: break-word;
+  letter-spacing: 0.1rem;
+  font-size: 40px;
+  height: 3em;
+}
+.logo {
+  padding: 10px 1px ;
+}
+.fa-discord,.fa-envelope,.fa-facebook,.fa-youtube{
+  font-size: 20px;
+  position:center;
+  padding: 3px ;
+}
+.button {
+  font-size: 35px;
+  margin-left: 20rem;
+  padding: 10px 20px ;
+}
+}
+@media only screen and (max-width: 480px) {
 
   section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: local;
-    padding: 0 0 100% 0;
+    padding: 0 0 55% 0;
 }
 
 li a { font-size: 12pt ; padding: 16px 18px;}
@@ -312,9 +390,9 @@ a.main { font-size: 12pt; padding: 16px 18px;}
 
 .logo {
   height: 5em;
-  line-height: 8em;
+  line-height: 11em;
   position: absolute;
-  right: 3em;
+  right: 0em;
   top: 0;
 }
 
@@ -330,12 +408,15 @@ h1 {
 }
 
 .fa-discord,.fa-envelope,.fa-facebook,.fa-youtube{
-  font-size: 16px;
+  font-size: 25px;
   position:center;
   padding: 3px;
-  
 }
-
+.button {
+  font-size: 25px;
+  margin-left: 8rem;
+  padding: 10px 20px ;
+}
 }
 @media only screen and (max-width: 376px) {
   body {
@@ -377,30 +458,12 @@ h1 {
       height: 5em;
   }
   
-  .fa-discord {
-    font-size: 14px;
+  .fa-discord,.fa-envelope,.fa-facebook,.fa-youtube{
+    font-size: 16px;
     position:center;
     padding: 3px;
     
-}
-  
-  .fa-envelope{ 
-    font-size: 14px;
-    position:center;
-    padding: 3px;
-}
-  
-  .fa-facebook {
-    font-size: 14px;
-    position:center;
-    padding: 3px;
-}
-
-  .fa-youtube{
-    font-size: 14px;
-    position:center;
-    padding: 3px;
-}
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -417,12 +480,12 @@ h1 {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: local;
-    padding: 0 0 70% 0;
+    padding: 0 0 40% 0;
 }
 
-  li a { font-size: 12pt ; padding: 16px 18px;}
+  li a { font-size: 12pt ; padding: 10px 10px;}
 
-  a.main { font-size: 12pt; padding: 16px 18px;}
+  a.main { font-size: 12pt; padding: 10px 10px;}
 
   .logo {
     height: 5em;
@@ -443,28 +506,14 @@ h1 {
       height: 5em;
   }
   
-  .fa-discord {
-    font-size: 14px;
+  .fa-discord,.fa-envelope,.fa-facebook,.fa-youtube{
+    font-size: 16px;
     position:center;
     padding: 3px;
-    
-}
-  
-  .fa-envelope{ 
-    font-size: 14px;
-    position:center;
-    padding: 3px;
-}
-  
-  .fa-facebook {
-    font-size: 14px;
-    position:center;
-    padding: 3px;
-}
-
-  .fa-youtube{
-    font-size: 14px;
-    position:center;
-    padding: 3px;
-}
-}
+  }
+  .button {
+    font-size: 10px;
+    margin-left: 8rem;
+    padding: 10px 20px ;
+  }
+  }
