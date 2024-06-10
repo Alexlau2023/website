@@ -1,5 +1,5 @@
 section {
-  background-image: url(2024-04-04_19.23.45.png);
+  background-image: url("2024-04-04_19.23.45.png");
 	background-size: cover;
   background-repeat: no-repeat;
   background-position: center ;
@@ -8,8 +8,33 @@ section {
   border-radius: 2px;
   max-width: 100%;
   padding: 0 0 22% 0 ;
-  height: auto;
 }
+		#banner:after {
+			pointer-events: none;
+			-moz-transition: opacity 3s ease-in-out;
+			-webkit-transition: opacity 3s ease-in-out;
+			-ms-transition: opacity 3s ease-in-out;
+			transition: opacity 3s ease-in-out;
+			-moz-transition-delay: 1.25s;
+			-webkit-transition-delay: 1.25s;
+			-ms-transition-delay: 1.25s;
+			transition-delay: 1.25s;
+			content: '';
+			background: #dfefff;
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			opacity: 0;
+		}
+
+
+    body.is-preload #banner:after {
+      opacity: 1.5;
+    }
+      
 body{
   margin: 0;
   padding: 0;
@@ -164,7 +189,7 @@ h1 {
 @media only screen and (max-width: 1680px) {
   section {
     max-width: 100%;
-    padding: 0 0 13% 0 ;
+    padding: 0 0 17% 0 ;
   }
   h1 {
     font-size: 30pt;
@@ -432,37 +457,42 @@ h1 {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: local;
-    padding: 0 0 50% 0;
+    padding: 0 0 40% 0;
 }
 
-  li a { font-size: 12pt ; padding: 16px 18px;}
+  li a { font-size: 12pt ; padding: 14px 16px;}
 
-  a.main { font-size: 12pt; padding: 16px 18px;}
+  a.main { font-size: 12pt; padding: 14px 16px;}
 
   .logo {
     height: 5em;
-    line-height: 8em;
+    line-height: 10em;
     position: absolute;
     right: 0.5em;
     top: 0;
   }
 
   ul {
-    margin: 0 0 10rem 0;
+    margin: 0 0 6rem 0;
   }
 
   h1 {
       word-break: break-word;
       letter-spacing: 0.1rem;
-      font-size: 1.1rem;
-      height: 5em;
+      font-size: 1.2rem;
+      height: 3em;
   }
   
   .fa-discord,.fa-envelope,.fa-facebook,.fa-youtube{
     font-size: 16px;
     position:center;
     padding: 3px;
-    
+  }
+
+  .button {
+    font-size: 20px;
+    margin-left: 7rem;
+    padding: 10px 20px ;
   }
 }
 
@@ -480,7 +510,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: local;
-    padding: 0 0 40% 0;
+    padding: 0 0 50% 0;
 }
 
   li a { font-size: 12pt ; padding: 10px 10px;}
@@ -503,7 +533,7 @@ h1 {
       word-break: break-word;
       letter-spacing: 0.1rem;
       font-size: 1.1rem;
-      height: 5em;
+      height: 3em;
   }
   
   .fa-discord,.fa-envelope,.fa-facebook,.fa-youtube{
@@ -512,8 +542,8 @@ h1 {
     padding: 3px;
   }
   .button {
-    font-size: 10px;
-    margin-left: 8rem;
+    font-size: 20px;
+    margin-left: 7rem;
     padding: 10px 20px ;
   }
   }
