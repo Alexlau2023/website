@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section {
+    background-color: rgba(240, 248, 255, 0.116);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.space {
+    padding: 5px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.logo {
+    margin-left: 10px;
+    height: 25px;
+    width: auto;
+    float: left;
+}
+.active {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+li { float:right;}
+
+li a {
+    font-size:large;
+    font-family: Tahoma, Verdana, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 12px ;
+    text-decoration: none;
+}
+
+li a:hover:not(.logo) {
+    background: rgba(255, 0, 0, 0.5); 
+    animation: rgb 5s infinite;
+}
+
+@keyframes rgb {
+ 50% {background-color: rgba(0, 0, 255, 0.5);}
+} 
+
+.end {
+    margin-right: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.me {
+    display: block;
+    margin-left: 10px;
+    max-width: 55%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h1 {
+    float: right;
+    margin: 0;
+    width: 43%;
+    font-size: 40px;
+    border-right: solid 2px rgba(0, 170, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Source Code Pro', monospace;
+    color: rgba(255, 255, 255, 0.70);
+    animation: animated-text 2s steps(200, end) 1s 1 normal both,
+    animated-cursor 600ms steps(200, end) infinite;
+}
+
+h2 {
+    float: right;
+    margin: 0;
+    margin-right: -16%;
+    margin-top: 4%;
+} 
+
+h3 {
+    float: right;
+    margin: 0;
+    margin-right: -13%;
+    margin-top: 7%;
+}
+
+@keyframes animated-text {
+    from { width: 10%; }
+    to { width: 43%; font-size: 40px; }
+  }
+  
+  @keyframes animated-cursor {
+    from {border-right-color: rgba(0, 140, 255, 0.75); }
+    to { border-right-color: transparent; }
+  }
+  
+  @keyframes text {
+    from { width: 43%; }
+    to { width: 10%; font-size: 30px; }
+  }
+  
+  @keyframes cursor {
+    from { border-right-color: rgba(0, 140, 255, 0.75); }
+    to { border-right-color: transparent; }
+  }
