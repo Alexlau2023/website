@@ -1,0 +1,442 @@
+body {
+    background-image:url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  div::after, div::before {
+    content: '';
+    width: 100%; 
+    height: 2px;
+    background: ghostwhite;
+    display: block;
+    bottom: 0;
+    left: 0;
+    animation: permanentWidth 3s; 
+  }
+  
+  @keyframes permanentWidth {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+  }
+  
+  div:hover::after, div:hover::before {
+    width: 100%;
+  }
+  
+  div {
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 20px;
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    position: relative;
+    animation: genshinEntrance 1s ease forwards; /* 1秒钟的进场动画，使用ease缓动函数 */
+  }
+  
+  div p {
+    border-style: none;
+    font-size: 20px;
+    text-align: center;
+    color: azure;
+  }
+  
+  .fa-discord {
+      display: flex;
+      padding: 8px;
+      font-size: 30px;
+      text-align: center;
+      border-style: none;
+  }
+  
+  .fa-facebook {
+      display: flex;
+      padding: 8px;
+      font-size: 30px;
+      text-align: center;
+      border-style: none;
+  }
+  
+  .fa-youtube{
+      display: flex;
+      padding: 8px;
+      font-size: 30px;
+      text-align: center;
+      border-style: none;
+  }
+
+  .logo { font-size: 15pt;}
+  
+  div h1 {
+    border-right: solid 2px rgba(0, 170, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Source Code Pro', monospace;
+    color: rgba(255, 255, 255, 0.70);
+    animation: animated-text 2s steps(200, end) 1s 1 normal both,
+    animated-cursor 600ms steps(200, end) infinite;
+  }
+  div h2 {
+    border-right: solid 2px rgba(0, 170, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Source Code Pro', monospace;
+    color: rgba(255, 255, 255, 0.70);
+    animation: text 2s steps(200, end) 1s 1 normal both,
+    cursor 600ms steps(200, end) infinite;
+  }
+  
+  
+  @keyframes animated-text {
+    from { width: 0; }
+    to { width: 1450px; font-size: 40px; }
+  }
+  
+  @keyframes animated-cursor {
+    from { border-right-color: rgba(0, 140, 255, 0.75); }
+    to { border-right-color: transparent; }
+  }
+  
+  @keyframes text {
+    from { width: 0; }
+    to { width: 1450px; font-size: 30px; }
+  }
+  
+  @keyframes cursor {
+    from { border-right-color: rgba(0, 140, 255, 0.75); }
+    to { border-right-color: transparent; }
+  }
+  a.main {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 16px 14px ;
+    float: left;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  a.main:hover {
+    background: #2980B9;
+  }
+
+  li {
+    float: left;
+  }
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+    font-family:'Source Code Pro', monospace;
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+  }
+  
+  li a:hover {
+    background: linear-gradient(to right, #2980B9, #6DD5FA, #c9e8ff); 
+  }
+  
+  ul {
+    display: inline-block;  
+    list-style-type: none;
+    margin: 0 0 10rem 0 ;
+    padding: 0 ;
+    overflow: hidden;
+  }
+  
+  @media only screen and (max-width: 1680px) {
+    body {
+        background-size: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    div p { font-size: 18pt;}
+  
+    div p1 { font-size: 18pt;}
+  
+    div p2 { font-size: 18pt;}
+  
+    div h1 {
+        word-break: break-word;
+        letter-spacing: 0.1rem;
+        font-size: 1rem;
+    }
+    div h2 {font-size: 30pt;}
+  
+    @keyframes animated-text {
+        from { width: 0; }
+        to { width: 100%; font-size:40px; }
+    }
+    @keyframes genshinEntrance {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes text {
+        from { width: 0; }
+        to { width: 100%; font-size:30px; }
+    }
+    @keyframes genshinEntrance {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    div {
+        animation: genshinEntrance 1s ease forwards; /* 1秒钟的进场动画，使用ease缓动函数 */
+    }
+  }
+  @media only screen and (max-width: 736px) {
+    body {
+        background-size: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    .logo {font-size: 15pt;}
+
+    div p { font-size: 20pt;}
+  
+    div h1 {
+        word-break: break-word;
+        letter-spacing: 0.1rem;
+        font-size: 1rem;
+    }
+    div h2 {font-size: 20pt;}
+
+    .fa-discord {
+        padding: 0;
+        font-size: 14px;
+        position:center;
+        
+    }
+    
+      .fa-facebook {
+        padding: 0;
+        font-size: 14px;
+        position:center;
+    }
+    
+      .fa-youtube{
+        padding: 0;
+        font-size: 14px;
+        position:center;
+    }
+  
+    @keyframes animated-text {
+        from { width: 0; }
+        to { width: 100%; font-size: 20px; }
+    }
+    @keyframes genshinEntrance {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    @keyframes text {
+        from { width: 0; }
+        to { width: 100%; font-size:22px; }
+    }
+    @keyframes genshinEntrance {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    
+    div {
+        animation: genshinEntrance 1s ease forwards; /* 1秒钟的进场动画，使用ease缓动函数 */
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    body {
+        background-size: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+  
+    li a { 
+      font-size: 13pt ;
+      padding: 18px 16px ;
+    }
+
+    a.main { 
+      font-size: 13pt;
+      padding: 18px 16px ;       
+    }
+  
+    .logo {font-size: 9pt;}
+  
+    div h1 {
+        word-break: break-word;
+        letter-spacing: 0.1rem;
+        font-size: 1rem;
+    }
+    div h2 {font-size: 14pt;}
+  
+    div p { font-size: 14pt;}
+  
+    .fa-discord {
+      padding: 0;
+      font-size: 14px;
+      position:center;
+      
+  }
+  
+    .fa-facebook {
+      padding: 0;
+      font-size: 14px;
+      position:center;
+  }
+  
+    .fa-youtube{
+      padding: 0;
+      font-size: 14px;
+      position:center;
+  }
+  
+  
+    @keyframes animated-text {
+        from { width: 0; }
+        to { width: 100%; font-size: 16pt; }
+    }
+    @keyframes genshinEntrance {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes text {
+        from { width: 0; }
+        to { width: 100%; font-size:20px; }
+    }
+    @keyframes genshinEntrance {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    div {
+        animation: genshinEntrance 1s ease forwards; /* 1秒钟的进场动画，使用ease缓动函数 */
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    body {
+        background-size: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    li a { font-size: 12pt ;}
+
+    a.main { font-size: 12pt;}
+
+    .logo {font-size: 12pt;}
+  
+    div p { font-size: 12pt;}
+  
+    div h1 {
+        word-break: break-word;
+        letter-spacing: 0.1rem;
+        font-size: 1rem;
+    }
+    div h2 {font-size: 14pt;}
+  
+    .fa-discord {
+      padding: 0;
+      font-size: 12px;
+      position:center;
+      
+  }
+  
+    .fa-facebook {
+      padding: 0;
+      font-size: 12px;
+      position:center;
+  }
+  
+    .fa-youtube{
+      padding: 0;
+      font-size: 12px;
+      position:center;
+  }
+  
+    @keyframes animated-text {
+        from { width: 0; }
+        to { width: 100%; font-size: 14pt; }
+    }
+    @keyframes genshinEntrance {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    @keyframes text {
+        from { width: 0; }
+        to { width: 100%; font-size:18px; }
+    }
+    @keyframes genshinEntrance {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    
+    div {
+        animation: genshinEntrance 1s ease forwards; /* 1秒钟的进场动画，使用ease缓动函数 */
+    }
+  }
+  
+  
+  
